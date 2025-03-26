@@ -1,6 +1,6 @@
 import pytest
 import pandas as pd
-from main import carregar_dados, calcular_valor_total, filtrar_vendas
+from Etapa3.Atividade1.main import carregar_dados, calcular_valor_total, filtrar_vendas
 
 def test_carregar_dados():
     df = carregar_dados('vendas.csv')
